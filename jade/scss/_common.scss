@@ -2,8 +2,7 @@ html {
   background-color: $white;
 }
 body {
-  background-color: $black;
-  color: $white;
+  color: $red;
   font-family: $proxima_nova_light;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
@@ -58,12 +57,19 @@ select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 100%;
 }
-button {
+button,input,
+textarea,
+select {
   &:active,
   &:focus {
     outline: none;
   }
+}
+button {
+  background: transparent;
+  border: none;
 }
 .bg-blue {
   background: url('img/bg-blue.png');
@@ -77,4 +83,7 @@ button {
 }
 .other-page {
   padding: 82px 0 107px;
+}
+.clear-both {
+  clear: both;
 }
