@@ -1,4 +1,4 @@
-npm install
-grunt
+#npm install
+#grunt
 
-Run index.html file
+#Run index.html file
