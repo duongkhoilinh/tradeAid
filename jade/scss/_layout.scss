@@ -298,9 +298,13 @@
       width: 25%;
       vertical-align: middle;
       position: relative;
+      margin-bottom: 0;
+      margin-top: 8px;
+      font-size: 12px;
       input {
         border-radius: 18px;
         height: 25px;
+        padding: 5px 10px;
       }
       .btn-search {
         background-color: transparent;

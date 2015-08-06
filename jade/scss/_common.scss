@@ -28,8 +28,9 @@ a {
     outline: none;
   }
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,b {
   margin: 0;
+  font-family: $proxima_nova_bold;
 }
 h1 {
   font-size: 52.54px;
@@ -41,7 +42,7 @@ h3 {
 }
 
 h4 {
-  font-size: 20.32px;
+  font-size: 18px;
   line-height: 23px;
 }
 
